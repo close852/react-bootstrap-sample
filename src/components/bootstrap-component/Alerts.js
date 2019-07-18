@@ -14,7 +14,7 @@ function Alerts({ defaultStyles }) {
         </Alert>
     ))
 
-    const show = true;
+    // const show = true;
     // const handleCosed = () => {
     //     return setShow;
     // }
@@ -30,7 +30,7 @@ function Alerts({ defaultStyles }) {
         <Alert variant="danger" dismissible>
             <Alert.Heading>Oops! Try Again.</Alert.Heading>
             <p>
-                blah, blah....
+                blah, blah....(onClose 이벤트는... js가 있어야 되는 듯 보임 dismissible onClose)
             </p>
         </Alert >
     )
